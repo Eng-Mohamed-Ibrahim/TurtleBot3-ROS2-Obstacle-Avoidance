@@ -31,10 +31,12 @@ ament_target_dependencies(
   obstacle_avoidance_node
   rclcpp
   sensor_msgs
+  geometry_msgs
 )
 
 install(
   TARGETS obstacle_avoidance_node
   DESTINATION lib/${PROJECT_NAME}
 )
+
 ament_package()
